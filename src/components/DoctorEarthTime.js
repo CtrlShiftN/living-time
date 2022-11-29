@@ -13,9 +13,9 @@ const DoctorEarthTime = () => {
   }, [])
 
   return (
-    <div className="container pt-3 align-middle text-center">
+    <div className="container pt-5 align-middle text-center">
       <h2>Hello Doctor</h2>
-      <span>You have live <b>{totalTime.year}</b> years&nbsp;
+      <span>You have lived <b>{totalTime.year}</b> years&nbsp;
         <b>{totalTime.month < 10 ? '0' + totalTime.month : totalTime.month}</b> months&nbsp;
         <b>{totalTime.day < 10 ? '0' + totalTime.day : totalTime.day}</b> days and&nbsp;
         <b>{totalTime.hour < 10 ? '0' + totalTime.hour : totalTime.hour}</b> hours&nbsp;
